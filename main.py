@@ -16,3 +16,24 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+p = True
+q = False
+
+if p and q:
+    print ('p and q')
+else:
+    print('not right')
+
+if p or q:
+    print ('p or q')
+else:
+    print('not right')
+
+
+x = 19
+p= x<16
+if p:
+    print('oh yeah')
+else:
+    print('nope')
