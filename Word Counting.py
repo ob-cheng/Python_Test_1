@@ -1,5 +1,5 @@
 import string
-text = open("word_count.txt", "r")
+text = open("/Users/tianencheng/PycharmProjects/pythonProject/venv/word_count.txt", "r")
 dic = dict()
 for line in text:
 
